@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=A
+comment0.target=int\ ArraySum(int[])
+comment0.text=\r\n\ Calcula\ la\ suma\ de\ un\ arreglo\r\n\ @param\ A\:\ Un\ arreglo\ de\ enteros\r\n\ @return\ int\ \:\ suma\ de\ de\ numeros\ del\ arreglo\r\n
+comment1.params=A
+comment1.target=int\ ArrayMax(int[])
+comment1.text=\r\n\ Calcula\ el\ valor\ maximo\ de\ un\ arreglo\r\n\ @param\ A\:\ Un\ arreglo\ de\ enteros\r\n\ @return\ int\ \:\ El\ valor\ maximo\ de\ un\ arreglo\r\n
+comment2.params=A
+comment2.target=void\ InsertionSort(int[])
+comment2.text=\r\n\ Ordena\ el\ areglo\ de\ menor\ a\ mayor\r\n\ @param\ A\:\ Un\ arreglo\ de\ enteros\r\n
+comment3.params=a
+comment3.target=void\ mergeSort(int[])
+comment3.text=\r\n\ Ordena\ el\ areglo\ recursivamente\ de\ menor\ a\ mayor\r\n\ @param\ a\:\ Un\ arreglo\ de\ enteros\r\n
+comment4.params=a\ tmp\ left\ right
+comment4.target=void\ mergeSort(int[],\ int[],\ int,\ int)
+comment5.params=a\ tmp\ left\ right\ rightEnd
+comment5.target=void\ merge(int[],\ int[],\ int,\ int,\ int)
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\r\n\ Ejecuta\ el\ programa\ \r\n\ @param\ args\ \:\ es\ un\ arreglo\ de\ caracteres\r\n
+comment7.params=n
+comment7.target=int[]\ ArrayGenerador(int)
+comment7.text=\r\n\ Genera\ un\ arreglo\ de\ tama\u00F1o\ n\r\n\ @param\ n\ \:\ es\ el\ la\ longitud\ del\ arreglo\r\n\ @return\ array\ \:\ devuelve\ el\ arreglo\r\n
+comment8.params=a\ m\ n
+comment8.target=void\ TakeTime(int[],\ int,\ int)
+comment8.text=\r\n\ Toma\ el\ tiempo\ que\ tarda\ en\ ejecutarse\ un\ m\u00E9todo\r\n\ @param\ m\ \:\ es\ el\ n\u00FAmero\ del\ m\u00E9todo\ a\ ejecutar\r\n\ @param\ n\ \:\ es\ el\ tama\u00F1o\ del\ arreglo\r\n
+numComments=9
