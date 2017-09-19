@@ -58,7 +58,7 @@ public void insert(int data, int index)
         Node nuevo = new Node(data);
         nuevo.next = first;
         first = nuevo;
-    } else if(index>=0 && index<size){
+    } else if(index>=0 && index<=size){
         Node temp = first;
         for(int i=0; i<index-1; i++){
            temp = temp.next; 
