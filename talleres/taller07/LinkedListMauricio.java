@@ -47,14 +47,13 @@ public LinkedListMauricio()
 // Retorna el tamaño actual de la lista
 public int size()
 {
-   return size; 
+    return size;
 }
 
-// Inserta un dato en la posición index
+// Inserta un dat   o en la posición index
 public void insert(int data, int index)
 {
-    if(index==0){
-        
+    if(index==0){     
         Node nuevo = new Node(data);
         nuevo.next = first;
         first = nuevo;
@@ -73,28 +72,28 @@ public void insert(int data, int index)
 // Borra el dato en la posición index
 public void remove(int index)
 {
-    if(index==0){        
-        first = first.next;
-    } else if(index>=0 && index<=size){
-        Node temp = first;
-        for(int i=0; i<index-1; i++){
-           temp = temp.next; 
-        }
-        Node aux = temp.next;
-        temp.next = aux.next;
+    if(index==0){
+    first=first.next;
+    }else{
+    Node temp = first;    
+    for(int i=0;i<index-1;i++){
+        temp =temp.next;
     }
-    
+    Node actual = temp;
+    actual.next = (temp.next).next;
+   }
+    size--;
 }
 
 // Verifica si está un dato en la lista
 public boolean contains(int data)
 {
-    Node aux = first;
-    for(int i=1; i<=size-1; i++){
-        if(aux.data==data){
+    Node temp = first;
+    while(temp != null){
+        if(data == temp.data){
             return true;
         }
-        aux = aux.next;
+        temp = temp.next;
     }
     return false;
 }
@@ -125,5 +124,21 @@ public static void main(String[] args){
     b.insert(0, 0);
     System.out.println(equals(a, b));
 }
+
+public static int maximo(LinkedListMauricio lista) {
+  return maximoAux(lista.first,0);
 }
 
+private static int maximoAux(Node nodo, int max){
+      if(nodo == null){
+          return max;
+      }else{
+          if(nodo.data > max){
+              max = nodo.data;
+          
+            }
+          return maximoAux(nodo.next,max);
+     }
+}
+
+}
