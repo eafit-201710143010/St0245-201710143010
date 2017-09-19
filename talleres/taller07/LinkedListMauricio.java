@@ -85,4 +85,31 @@ public boolean contains(int data)
     return true;
 }
 
+public static boolean equals(LinkedListMauricio a, LinkedListMauricio b){
+    Node nA = a.first;
+    Node nB = b.first;
+    for(int i=1; i<=a.size; i++){
+        if(nA.data!=nB.data){
+            return false;
+        }
+        if(nA.next!=null){
+            nA = nA.next;
+            nB = nB.next;
+        }
+    }
+    return true;
 }
+
+public static void main(String[] args){
+    LinkedListMauricio a = new LinkedListMauricio();
+    a.insert(1, 0);
+    a.insert(2, 1);
+    a.insert(0, 0);
+    LinkedListMauricio b = new LinkedListMauricio();
+    b.insert(2, 0);
+    b.insert(1, 0);
+    b.insert(0, 0);
+    System.out.println(equals(a, b));
+}
+}
+
