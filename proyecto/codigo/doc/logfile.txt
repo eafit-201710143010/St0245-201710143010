@@ -1,0 +1,108 @@
+Project documentation
+<---- javadoc command: ---->
+C:\Program Files\Java\jdk1.8.0_51\bin\javadoc.exe
+-sourcepath
+C:\Users\Soto\Documents\BuscarArchivos
+-source
+1.8
+-classpath
+C:\Program Files (x86)\BlueJ\lib\bluejcore.jar;C:\Program Files (x86)\BlueJ\lib\junit-4.8.2.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-core.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-device.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-gpio-extension.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-service.jar;C:\Users\Soto\Documents\BuscarArchivos
+-d
+C:\Users\Soto\Documents\BuscarArchivos\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+C:\Program Files (x86)\BlueJ\lib\bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+-doctitle
+BuscarArchivos
+-windowtitle
+BuscarArchivos
+-author
+-version
+-nodeprecated
+-package
+-link
+http://download.oracle.com/javase/8/docs/api/
+C:\Users\Soto\Documents\BuscarArchivos/Main2.java
+C:\Users\Soto\Documents\BuscarArchivos/Node.java
+C:\Users\Soto\Documents\BuscarArchivos/AVLTree.java
+C:\Users\Soto\Documents\BuscarArchivos/Archivo.java
+C:\Users\Soto\Documents\BuscarArchivos/Main.java
+<---- end of javadoc command ---->
+Loading source file C:\Users\Soto\Documents\BuscarArchivos\Main2.java...
+Loading source file C:\Users\Soto\Documents\BuscarArchivos\Node.java...
+Loading source file C:\Users\Soto\Documents\BuscarArchivos\AVLTree.java...
+Loading source file C:\Users\Soto\Documents\BuscarArchivos\Archivo.java...
+Loading source file C:\Users\Soto\Documents\BuscarArchivos\Main.java...
+Constructing Javadoc information...
+Standard Doclet version 1.8.0_51
+Building tree for all the packages and classes...
+Generating C:\Users\Soto\Documents\BuscarArchivos\doc\Archivo.html...
+C:\Users\Soto\Documents\BuscarArchivos\Archivo.java:58: warning - Tag @see: missing '#': "compareToIgnoreCase()"
+C:\Users\Soto\Documents\BuscarArchivos\Archivo.java:58: warning - Tag @see: can't find compareToIgnoreCase() in Archivo
+C:\Users\Soto\Documents\BuscarArchivos\Archivo.java:5: warning - @autho is an unknown tag.
+C:\Users\Soto\Documents\BuscarArchivos\Archivo.java:15: warning - @param argument "nombre:" is not a parameter name.
+C:\Users\Soto\Documents\BuscarArchivos\Archivo.java:26: warning - @param argument "nombre:" is not a parameter name.
+C:\Users\Soto\Documents\BuscarArchivos\Archivo.java:26: warning - @param argument "dirección:" is not a parameter name.
+C:\Users\Soto\Documents\BuscarArchivos\Archivo.java:58: warning - @param argument "otroArchivo:" is not a parameter name.
+Generating C:\Users\Soto\Documents\BuscarArchivos\doc\AVLTree.html...
+C:\Users\Soto\Documents\BuscarArchivos\AVLTree.java:43: warning - Tag @see: missing '#': "insert()"
+C:\Users\Soto\Documents\BuscarArchivos\AVLTree.java:43: warning - Tag @see: can't find insert() in AVLTree
+C:\Users\Soto\Documents\BuscarArchivos\AVLTree.java:68: warning - Tag @see: missing '#': "balanceNumber()"
+C:\Users\Soto\Documents\BuscarArchivos\AVLTree.java:68: warning - Tag @see: can't find balanceNumber() in AVLTree
+C:\Users\Soto\Documents\BuscarArchivos\AVLTree.java:68: warning - Tag @see: missing '#': "rotateLeft()"
+C:\Users\Soto\Documents\BuscarArchivos\AVLTree.java:68: warning - Tag @see: can't find rotateLeft() in AVLTree
+C:\Users\Soto\Documents\BuscarArchivos\AVLTree.java:68: warning - Tag @see: missing '#': "rotateRight()"
+C:\Users\Soto\Documents\BuscarArchivos\AVLTree.java:68: warning - Tag @see: can't find rotateRight() in AVLTree
+C:\Users\Soto\Documents\BuscarArchivos\AVLTree.java:108: warning - Tag @see: missing '#': "depth()"
+C:\Users\Soto\Documents\BuscarArchivos\AVLTree.java:108: warning - Tag @see: can't find depth() in AVLTree
+C:\Users\Soto\Documents\BuscarArchivos\AVLTree.java:68: warning - @param argument "node:" is not a parameter name.
+C:\Users\Soto\Documents\BuscarArchivos\AVLTree.java:68: warning - @param argument "data:" is not a parameter name.
+C:\Users\Soto\Documents\BuscarArchivos\AVLTree.java:43: warning - @param argument "data:" is not a parameter name.
+C:\Users\Soto\Documents\BuscarArchivos\AVLTree.java:156: warning - @param argument "data:" is not a parameter name.
+Generating C:\Users\Soto\Documents\BuscarArchivos\doc\Main.html...
+C:\Users\Soto\Documents\BuscarArchivos\Main.java:21: warning - Tag @see: missing '#': "insert()"
+C:\Users\Soto\Documents\BuscarArchivos\Main.java:21: warning - Tag @see: can't find insert() in Main
+C:\Users\Soto\Documents\BuscarArchivos\Main.java:61: warning - Tag @see: missing '#': "dataSets()"
+C:\Users\Soto\Documents\BuscarArchivos\Main.java:80: warning - Tag @see: missing '#': "search()"
+C:\Users\Soto\Documents\BuscarArchivos\Main.java:80: warning - Tag @see: can't find search() in Main
+C:\Users\Soto\Documents\BuscarArchivos\Main.java:80: warning - Tag @see: missing '#': "dataSets()"
+C:\Users\Soto\Documents\BuscarArchivos\Main.java:11: warning - @author: is an unknown tag.
+Generating C:\Users\Soto\Documents\BuscarArchivos\doc\Main2.html...
+C:\Users\Soto\Documents\BuscarArchivos\Main2.java:20: warning - Tag @see: missing '#': "insert()"
+C:\Users\Soto\Documents\BuscarArchivos\Main2.java:20: warning - Tag @see: can't find insert() in Main2
+C:\Users\Soto\Documents\BuscarArchivos\Main2.java:52: warning - Tag @see: missing '#': "search()"
+C:\Users\Soto\Documents\BuscarArchivos\Main2.java:52: warning - Tag @see: can't find search() in Main2
+C:\Users\Soto\Documents\BuscarArchivos\Main2.java:90: warning - Tag @see: missing '#': "readDisk()"
+C:\Users\Soto\Documents\BuscarArchivos\Main2.java:90: warning - Tag @see: can't find readDisk() in Main2
+C:\Users\Soto\Documents\BuscarArchivos\Main2.java:20: warning - @param argument "argFile:" is not a parameter name.
+Generating C:\Users\Soto\Documents\BuscarArchivos\doc\Node.html...
+C:\Users\Soto\Documents\BuscarArchivos\Node.java:28: warning - @param argument "data:" is not a parameter name.
+C:\Users\Soto\Documents\BuscarArchivos\Node.java:39: warning - @param argument "data:" is not a parameter name.
+C:\Users\Soto\Documents\BuscarArchivos\Node.java:39: warning - @param argument "left:" is not a parameter name.
+C:\Users\Soto\Documents\BuscarArchivos\Node.java:39: warning - @param argument "right:" is not a parameter name.
+C:\Users\Soto\Documents\BuscarArchivos\Node.java:39: warning - @param argument "same:" is not a parameter name.
+C:\Users\Soto\Documents\BuscarArchivos\Node.java:140: warning - @param argument "o:" is not a parameter name.
+C:\Users\Soto\Documents\BuscarArchivos\Node.java:67: warning - @param argument "data:" is not a parameter name.
+C:\Users\Soto\Documents\BuscarArchivos\Node.java:131: warning - @param argument "depth:" is not a parameter name.
+C:\Users\Soto\Documents\BuscarArchivos\Node.java:83: warning - @param argument "left:" is not a parameter name.
+C:\Users\Soto\Documents\BuscarArchivos\Node.java:99: warning - @param argument "right:" is not a parameter name.
+C:\Users\Soto\Documents\BuscarArchivos\Node.java:116: warning - @param argument "same:" is not a parameter name.
+Generating C:\Users\Soto\Documents\BuscarArchivos\doc\package-frame.html...
+Generating C:\Users\Soto\Documents\BuscarArchivos\doc\package-summary.html...
+Generating C:\Users\Soto\Documents\BuscarArchivos\doc\package-tree.html...
+Generating C:\Users\Soto\Documents\BuscarArchivos\doc\constant-values.html...
+Building index for all the packages and classes...
+Generating C:\Users\Soto\Documents\BuscarArchivos\doc\overview-tree.html...
+Generating C:\Users\Soto\Documents\BuscarArchivos\doc\index-all.html...
+Building index for all classes...
+Generating C:\Users\Soto\Documents\BuscarArchivos\doc\allclasses-frame.html...
+Generating C:\Users\Soto\Documents\BuscarArchivos\doc\allclasses-noframe.html...
+Generating C:\Users\Soto\Documents\BuscarArchivos\doc\index.html...
+Generating C:\Users\Soto\Documents\BuscarArchivos\doc\help-doc.html...
+Generating C:\Users\Soto\Documents\BuscarArchivos\doc\stylesheet.css...
+46 warnings

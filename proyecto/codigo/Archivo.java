@@ -1,42 +1,73 @@
-
 /**
- * Write a description of class Archivo here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @autho Santiago Soto Marulanda 
+ * @version 27/10/2017
  */
-public class Archivo
+public class Archivo implements Comparable<Archivo>
 {
+    //atributos de clase
     private String nombre;
-    private String directorio;
     private String direccion;
-    private boolean esDirectorio;
     
-    public Archivo(String nombre, String directorio, String direccion, boolean esDirectorio)
+    /**
+     * Este es el constructor por defecto de Archivo
+     * @param nombre: es el nombre del archivo
+     */
+    public Archivo(String nombre)
     {
         this.nombre = nombre;
-        this.directorio = directorio;
-        this.direccion = direccion;
-        this.esDirectorio = esDirectorio;
     }
     
+    /**
+     * Este es el constructor de Archivo teniendo conocimiento 
+     * de la dirección del archivo
+     * @param nombre: es el nombre del archivo
+     * @param dirección: es la dirección del archivo
+     */
+    public Archivo(String nombre, String direccion)
+    {
+        this.nombre = nombre;
+        this.direccion = direccion;
+    }
+    
+    /**
+     * Este método muestra el nombre del archivo
+     * @return el nombre del archivo
+     */
     public String getNombre()
     {
         return nombre;
     }
     
-    public String getDirectorio()
-    {
-        return directorio;
-    }
-    
+    /**
+     * Este metodo muestra la dirección que posee el archivo
+     * @return la dirección del archivo
+     */
     public String getDireccion()
     {
         return direccion;
     }
     
-    public boolean getEsDiretorio()
+    /**
+     * Este metodo se encarga de comparar dos archivos  
+     * lexicográficamente respecto a su nombre
+     * @param otroArchivo: es uno de los archivos que se comparará
+     * @see compareToIgnoreCase()
+     * @return cuál de los dos archivos es mayor o 
+     */
+    @Override
+    public int compareTo ( Archivo otroArchivo)
     {
-        return esDirectorio;
+        return nombre.compareToIgnoreCase(otroArchivo.getNombre());
+    }
+    
+    /**
+     * Este metodo convierte los atributos 
+     * de Archivo una cade de String
+     * @return la cade de String
+     */
+    @Override
+    public String toString ()
+    {
+        return "["+direccion+"] "+nombre;
     }
 }
